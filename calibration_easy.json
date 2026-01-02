@@ -1,0 +1,50 @@
+{
+  "curl": {
+    "right_elbow": {
+      "min_angle": 60,
+      "max_angle": 155,
+      "rom_threshold": 55,
+      "min_duration": 0.4,
+      "max_duration": 6.0,
+      "lockout_margin": 30,
+      "top_margin": 20,
+      "bottom_margin": 15
+    }
+  },
+  "squat": {
+  "right_knee": {
+    "min_angle": 95,
+    "max_angle": 180,
+    "lockout_margin": 15,
+    "rom_threshold": 40,
+    "min_duration": 2.0,
+    "max_duration": 4.0,
+    "hold_start_frames": 2,
+    "hold_end_frames": 2,
+    "seg_rom_min": 15,
+    "knee_small_rom_limit": 20,
+    "torso_lean_cheat_thr": 20,
+    "hip_knee_ratio_thr": 2.0
+  }
+},
+  "bench": {
+    "right_elbow": {
+      "min_angle": 70,
+      "max_angle": 165,
+      "rom_threshold": 60,
+      "min_duration": 0.5,
+      "max_duration": 8.0,
+      "hold_start_frames": 3,
+      "hold_end_frames": 5,
+      "seg_rom_min": 20,
+      "smooth_window": 5,
+      "top_margin": 14,
+      "bottom_margin": 10,
+      "vel_eps": 2.5,
+      "vel_eps_mean": 1.8,
+      "top_relax": 6,
+      "refractory_frames": 4,
+      "asc_timeout_s": 9.5
+    }
+  }
+}

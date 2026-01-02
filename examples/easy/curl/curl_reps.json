@@ -1,0 +1,42 @@
+[
+  {
+    "start_idx": 35,
+    "end_idx": 125,
+    "duration": 3.0,
+    "rom": 87.8,
+    "label": "pass",
+    "reason": "Good rep"
+  },
+  {
+    "start_idx": 210,
+    "end_idx": 299,
+    "duration": 2.97,
+    "rom": 80.6,
+    "label": "pass",
+    "reason": "Good rep"
+  },
+  {
+    "start_idx": 380,
+    "end_idx": 483,
+    "duration": 3.43,
+    "rom": 74.7,
+    "label": "pass",
+    "reason": "Good rep"
+  },
+  {
+    "start_idx": 557,
+    "end_idx": 665,
+    "duration": 3.6,
+    "rom": 75.6,
+    "label": "pass",
+    "reason": "Good rep"
+  },
+  {
+    "start_idx": 740,
+    "end_idx": 829,
+    "duration": 2.97,
+    "rom": 85.8,
+    "label": "pass",
+    "reason": "Good rep"
+  }
+]

@@ -1,0 +1,6 @@
+rep_index,start_idx,end_idx,duration,label,reason,rom
+1,48,116,2.27,pass,"Good rep",122.5
+2,182,288,3.53,pass,"Good rep",122.3
+3,336,466,4.33,fail,"Too slow",152.6
+4,488,585,3.23,pass,"Good rep",136.7
+5,597,749,5.07,fail,"Too slow",151.8

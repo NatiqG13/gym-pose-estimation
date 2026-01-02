@@ -1,0 +1,34 @@
+[
+  {
+    "start_idx": 44,
+    "end_idx": 188,
+    "duration": 4.8,
+    "rom": 119.4,
+    "label": "fail",
+    "reason": "Too slow"
+  },
+  {
+    "start_idx": 225,
+    "end_idx": 348,
+    "duration": 4.1,
+    "rom": 115.6,
+    "label": "fail",
+    "reason": "Too slow"
+  },
+  {
+    "start_idx": 387,
+    "end_idx": 508,
+    "duration": 4.03,
+    "rom": 118.1,
+    "label": "fail",
+    "reason": "Too slow"
+  },
+  {
+    "start_idx": 535,
+    "end_idx": 641,
+    "duration": 3.53,
+    "rom": 122.7,
+    "label": "pass",
+    "reason": "Good rep"
+  }
+]

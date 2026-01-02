@@ -1,0 +1,21 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv_yolo/
+env/
+venv/
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Temporary or large raw files
+*.npy
+*.log
+*.bak
+
+# Mac system files
+.DS_Store

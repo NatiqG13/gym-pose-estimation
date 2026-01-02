@@ -1,0 +1,9 @@
+{
+  "curl": {
+    "right_elbow": {
+      "min_angle": 60,
+      "max_angle": 130,
+      "rom_threshold": 80
+    }
+  }
+}

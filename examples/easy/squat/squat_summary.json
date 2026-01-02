@@ -1,0 +1,9 @@
+{
+  "exercise": "squat",
+  "joint_name": "right_knee",
+  "rep_count": 9,
+  "pass_count": 3,
+  "fail_count": 6,
+  "calibration_file": "calibration_easy.json",
+  "timestamp": "2026-01-01T15:02:44"
+}

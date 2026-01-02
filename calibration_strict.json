@@ -1,0 +1,73 @@
+{
+  "curl": {
+    "right_elbow": {
+      "min_angle": 55,
+      "max_angle": 165,
+      "rom_threshold": 75,
+      "min_duration": 2.0,
+      "max_duration": 4.0,
+
+      "smooth_window": 5,
+      "hold_start_frames": 4,
+      "hold_end_frames": 4,
+      "refractory_frames": 6,
+
+      "top_margin": 12,
+      "bottom_margin": 12,
+      "bottom_arm_margin": 15,
+
+      "seg_rom_min": 25
+    }
+  },
+  "squat": {
+    "right_knee": {
+      "min_angle": 85,
+      "max_angle": 175,
+      "rom_threshold": 70,
+      "min_duration": 2.0,
+      "max_duration": 4.0,
+
+      "smooth_window": 5,
+      "hold_start_frames": 4,
+      "hold_end_frames": 4,
+      "refractory_frames": 6,
+
+      "top_margin": 10,
+      "bottom_margin": 10,
+      "seg_rom_min": 20,
+
+      "knee_small_rom_limit": 30,
+      "torso_lean_cheat_thr": 15,
+      "hip_knee_ratio_thr": 2.0
+    }
+  },
+  "bench": {
+    "right_elbow": {
+      "min_angle": 70,
+      "max_angle": 165,
+      "rom_threshold": 85,
+      "min_duration": 2.0,
+      "max_duration": 4.0,
+
+      "smooth_window": 5,
+      "hold_start_frames": 4,
+      "hold_end_frames": 4,
+      "refractory_frames": 6,
+
+      "top_margin": 10,
+      "bottom_margin": 10,
+      "lockout_margin": 10,
+
+      "seg_rom_min": 25,
+
+      "allow_partial_lockout": true,
+      "top_relax": 0,
+      "peak_drop": 6,
+      "peak_min_asc_frames": 10,
+      "asc_timeout_s": 6.0,
+
+      "vel_eps": 2.5,
+      "vel_eps_mean": 1.8
+    }
+  }
+}

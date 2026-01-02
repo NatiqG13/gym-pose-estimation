@@ -1,0 +1,9 @@
+{
+  "exercise": "curl",
+  "joint_name": "right_elbow",
+  "rep_count": 5,
+  "pass_count": 5,
+  "fail_count": 0,
+  "calibration_file": "calibration_easy.json",
+  "timestamp": "2026-01-01T15:00:49"
+}

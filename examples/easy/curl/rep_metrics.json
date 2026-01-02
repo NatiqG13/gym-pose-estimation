@@ -1,0 +1,18 @@
+{
+  "rep_count": 5,
+  "pass_count": 5,
+  "fail_count": 0,
+  "rom_avg_all": 80.89999999999999,
+  "rom_avg_pass": 80.89999999999999,
+  "duration_avg_all": 3.194,
+  "duration_avg_pass": 3.194,
+  "rom_min": 74.7,
+  "rom_max": 87.8,
+  "duration_min": 2.97,
+  "duration_max": 3.6,
+  "artifacts": {
+    "rep_rom_png": "rep_rom.png",
+    "rep_duration_png": "rep_duration.png",
+    "rep_outcomes_png": "rep_outcomes.png"
+  }
+}
