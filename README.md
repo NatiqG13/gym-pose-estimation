@@ -67,6 +67,37 @@ The system is executed through a single entry point (`main.py`) and supports dif
 python main.py --input path/to/video.mp4 --exercise squat --calibration calibration_easy.json --debug
 ```
 
+## Command-Line Arguments
+
+The system is configured entirely through command-line flags.
+
+### Required Arguments
+- `--input`  
+  Path to an input video file.
+
+- `--exercise`  
+  Exercise type to evaluate.  
+  Supported values:
+  - `bench`
+  - `curl`
+  - `squat`
+
+- `--calibration`  
+  Path to a calibration JSON file defining form constraints and thresholds.
+
+### Optional Flags
+- `--debug`  
+  Enables diagnostic plots and intermediate outputs for interpretability.
+
+- `--save-video`  
+  Saves the annotated output video to disk.
+
+- `--open-video`  
+  Automatically opens the annotated video after processing (if supported by the OS).
+
+> Note: Only the listed exercises are currently supported. The system is designed to be extensible, but adding new exercises requires defining joint angle signals and calibration rules.
+
+
 
 ## Outputs & Diagnostics
 
